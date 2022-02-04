@@ -1,0 +1,77 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    margin:0;
+    background-color: #f9fafc;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+    margin: 20px 0px 0px 18px
+}
+
+#chirpus {
+    margin: 0;
+}
+
+a {
+    color: #69696a;
+    text-decoration: none;
+}
+
+#hireus {
+    background-color: #000;
+    border-color: #000;
+    border-radius: 20px;
+    width: 460px;
+    height: 2.5em;
+    color: #FFF;
+}
+
+#chirpusinc {
+    margin: 30px 0px 0px 18px;
+    font-size: 33px;
+}
+
+#loremipsum {
+    margin: 18px 15px 0px 18px;
+    color: #69696a;
+    border-left: 3px solid #69696a;
+    padding-left: 15px;
+}
+
+#calltoaction {
+    display: block;
+    margin: 0 auto;
+    background-color: #000;
+    border-color: #000;
+    border-radius: 20px;
+    width: 460px;
+    height: 2.5em;
+    color: #FFF;
+}
+
+footer {
+    background-color: rgba(247, 193, 162, 0.7);
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 23px;
+}
+
+#chirpusfooter {
+    margin: 0;
+}
+
+#linkonetwothree {
+    display: flex;
+    column-gap: 20px;
+}
