@@ -11,7 +11,13 @@ nav {
     display: flex;
     flex-direction: column;
     row-gap: 11px;
-    margin: 20px 0px 0px 18px
+    margin: 20px 0px 0px 18px;
+}
+
+#navdiv {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
 }
 
 #chirpus {
@@ -27,9 +33,10 @@ a {
     background-color: #000;
     border-color: #000;
     border-radius: 20px;
-    width: 460px;
+    width: 94vw;
     height: 2.5em;
     color: #FFF;
+    margin: 10px 0px 0px 0px;
 }
 
 #chirpusinc {
@@ -42,11 +49,12 @@ a {
     color: #69696a;
     border-left: 3px solid #69696a;
     padding-left: 15px;
+    line-height: 20px;
 }
 
 #calltoaction {
     display: block;
-    margin: 0 auto;
+    margin: 18px auto 0px auto;
     background-color: #000;
     border-color: #000;
     border-radius: 20px;
@@ -74,4 +82,90 @@ footer {
 #linkonetwothree {
     display: flex;
     column-gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+
+    #chirpus {
+        margin: 6px 0px 0px 0px;
+    }
+    
+    #navdiv {
+        flex-direction: row;
+        margin: 0px 18px 0px 0px;
+        column-gap: 10px;
+    }
+
+    #hireus {
+        width: 70px;
+        margin: -10px 0px 0px 0px;
+    }
+
+    #chirpussection {
+        width: 50vw;
+        margin: 110px 0px 0px 0px;
+    }
+
+    #chirpusinc {
+        margin: 0px 0px 0px 18px;
+    }
+
+    #calltoaction {
+        margin: 18px 0px 0px 20px;
+        width: 93%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #circles {
+        width: 50vw;
+        position: relative;
+        margin: 110px 0px 0px 0px;
+    }
+
+    #pink {
+        position: absolute;
+        background-color: rgba(247, 136, 167, .6);
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        top: 0px;
+        right: 75px;
+    }
+
+    #purple {
+        position: absolute;
+        background-color: rgba(207, 130, 213, .6);
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        top: 40px;
+        right: 20px;
+    }
+
+    #orange {
+        position: absolute;
+        background-color: rgba(247, 193, 162, .7);
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        top: 111px;
+        right: 20px;
+    }
+
+    a:hover {
+        color: black;
+    }
+
 }
